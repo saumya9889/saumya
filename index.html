@@ -41,7 +41,7 @@
 
                 </ul>
                 <div class="close2" onclick="closeFun()">
-                    &times;
+                    <div class="close"></div>
                 </div>
             </div>
         </div>
@@ -55,13 +55,13 @@
             <div class="about-container">
                 <div class="about-content">
                     <figure class="bg">
-                        <img src="/image/bg pic.png" alt="bg src">
+                        <img src="image/bg pic.png" alt="bg src">
                     </figure>
                     <figure class="body">
-                        <img src="/image/shoulders.png" alt="body pic">
+                        <img src="image/shoulders.png" alt="body pic">
                     </figure>
                     <figure class="head">
-                        <img src="/image/head.png" alt="head pic">
+                        <img src="image/head.png" alt="head pic">
                         <figure>
                 </div>
                 <div class="right-wrap">
@@ -76,9 +76,9 @@
                         someone who has both a creative and a logical side. When I discovered web design in college, I
                         realized it would be the perfect fit. I could use my creative side to design and my logical side
                         to
-                        Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                         Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."</p>
-                        
+
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                         <h2>
                             I
                         </h2>
-                        <img class="heart" src="/image/heart2.png" alt="love">
+                        <img class="heart" src="image/heart2.png" alt="love">
                         <h3> working with </h3>
                     </div>
                     <h4> small business</h4>
@@ -195,7 +195,7 @@
                 <div class="sub-wrapper">
                     <div class="sub-left">
                         <figure>
-                            <img src="/image/gidwitz.jpg">
+                            <img src="image/gidwitz.jpg">
                         </figure>
                     </div>
                     <div class="sub-right">
@@ -217,10 +217,88 @@
         </div>
         </div>
     </section>
- 
+    <section class="shop-wrap">
+        <div class="container">
+            <div class="shop-wrapper">
+                <div class="image-wrap">
+                    <figure class="figure1">
+                        <img src="image/shop_sign.png">
+                    </figure>
+                    <figure class="figure2">
+                        <img src="image/shop_cover2.jpg">
+                    </figure>
+                </div>
+
+                <div class="card-wrap">
+                    <figure>
+                        <img src="image/mother_nature.jpg">
+                    </figure>
+                    <figure>
+                        <img src="image/img1.jpg">
+                    </figure>
+                    <figure>
+                        <img src="image/charley_and_beau.png">
+                    </figure>
+                    <figure>
+                        <img src="image/bellanotte.png">
+                    </figure>
+                </div>
+                <div class="font">
+                    <h2> See All Fonts</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="work-wrap info-wrap ">
+        <div class="container">
+            <div class="work-wrapper">
+                <div class="work-left">
+                    <p>Join the mailing list or follow me on social media to receive occasional updates about new fonts,
+                        freebies, giveaways, and sales!
+                    </p>
+                    <label class="btn">
+                        <input type="email" placeholder="fgbhnjmk" />
+
+                    </label><button class="learn-btn">learn more</button>
+                </div>
+                <div class="work-right">
+                    <figure>
+                        <img src="image/footer2.png" alt="img" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section class="info-wrap">
+        <div class="container">
+            <div class="info-wrapper">
+                <div class="work-left">
+                    <p>Join the mailing list or follow me on social media to receive occasional updates about new fonts,
+                        freebies, giveaways, and sales!
+                    </p>
+                    <label class="btn">
+                        <input type="email" placeholder="Email" />
+
+                    </label>
+                    <button class="learn-btn">learn more</button>
+                </div>
+                <div class="work-ryt">
+                    <figure>
+                        <img src="image/footer2.png" alt="img" />
+                    </figure>
+
+                  </div>
+                </div>
+        
+        </div>
+</section>
+
 
     <!-- script section -->
-    <script> 
+    <script>
         function menuFunction() {
             let x = document.getElementById("Menu");
             // console.log(x.style, "data")
@@ -238,16 +316,16 @@
                 y.style.display = "none";
             }
         }
-        function cardFun(e) { 
+        function cardFun(e) {
 
             let x = document.getElementById("sub-wrap");
-            let heading = document.getElementById("one"); 
-            if (e === 1) { 
-                heading.innerHTML="ADAM GIDWITZ" 
-            }else if (e === 2) {
-                heading.innerHTML="BRIABBY"
-            }else if (e === 3) {
-                heading.innerHTML="MURDER SQUAD"
+            let heading = document.getElementById("one");
+            if (e === 1) {
+                heading.innerHTML = "ADAM GIDWITZ"
+            } else if (e === 2) {
+                heading.innerHTML = "BRIABBY"
+            } else if (e === 3) {
+                heading.innerHTML = "MURDER SQUAD"
             }
 
             if (e) {
